@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_1"
+    android:orientation="vertical"
+    android:padding="16dp"
+
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Shoes store"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center" />
+
+    <!-- Total Cost TextView -->
+    <TextView
+        android:id="@+id/totalCostTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Cost: 0"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+
+        android:textStyle="bold"
+        android:layout_gravity="left"/>
+
+    <!-- Item Details TextView -->
+    <TextView
+        android:id="@+id/itemDetailsTextView"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text="Item Details:"
+        android:textSize="24sp"
+
+        android:textStyle="bold"
+        android:layout_gravity="left"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Thank You Text -->
+    <TextView
+        android:id="@+id/thankYouTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank you"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/giphy" />
+
+    <!-- Back Button -->
+</LinearLayout>
